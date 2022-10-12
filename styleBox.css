@@ -1,0 +1,87 @@
+:root {
+    --root-font-size: 16px;
+    --root-background-color: #ffeead;
+    --root-block-color: #88d8b0;
+}
+
+body {
+    margin: 10%;
+    background-color: #d6d6da;
+
+}
+
+.boxOne {
+    background-color: #104357;
+    width: 280px;
+    height: 300px;
+    border-radius: 80px;
+    border: 40px solid #ff6550;
+    margin-left: 300px;
+}
+
+.boxTwo {
+    background-color: aliceblue;
+    margin-top: 8%;
+    width: 320px;
+    height: 320px;
+    border-top: 10px double #50bbff;
+    border-bottom: 10px dotted #de50ff;
+    margin-left: 315px;
+}
+
+.boxThree {
+    margin-top: 8%;
+    width: 320px;
+    height: 320px;
+    background-color: #158cba;
+    opacity: 0.75;
+    box-shadow: 10px 10px 69px rgb(156, 61, 61);
+    margin-left: 315px;
+}
+
+.text {
+    color: #88d8b0;
+    text-align: center;
+
+
+}
+
+.boxFour {
+    width: 320px;
+    height: 320px;
+    margin-top: 8%;
+    margin-left: 315px;
+    background-color: var(--root-background-color);
+    font-size: var(--root-font-size);
+
+
+}
+
+.boxHead {
+    width: 320px;
+    height: 30px;
+    background-color: var(--root-block-color);
+}
+
+ul li {
+    display: block;
+    float: left;
+    margin-right: 54px;
+    color: #ffeead;
+    margin-top: 4px;
+}
+
+.text1 {
+    color: var(--root-background-color);
+    text-align: center;
+    width: 90px;
+    height: 45px;
+    background-color: var(--root-block-color);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
